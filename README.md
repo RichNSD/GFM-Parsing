@@ -2,12 +2,21 @@
 
 [ Intro Body ]
 
-<br />
+
+<br /><br />
 
 ---
 
 <br />
 
-# Dependencies
+# { Header }
 
-This __[GitHub-Flavored Markdown Plugin]__ uses a __[Ruby](https://www.ruby-lang.org/en/)-Based [Markdown ➜ → HTML Parser]__
+[ body text ]
+
+
+<br />
+
+## { Sub-Header }
+
+[ body text ]
+

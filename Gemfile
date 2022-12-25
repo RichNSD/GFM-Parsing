@@ -4,7 +4,7 @@ gemspec
 gem 'github-markdown-server'
 gem 'github-linguist',			'= 5.0.4'
 gem 'github-markdown-preview',	'~> 4.0'
-gem 'commonmarker',				'= 0.17.9'
+gem 'commonmarker',				'~> 0.23.4'
 gem 'gemoji',					'= 3.0.0'
 gem 'github-markdown',			'= 0.6.9'
 gem 'html-pipeline',			'= 2.7.1'

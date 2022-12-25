@@ -1,12 +1,12 @@
 psource "https://rubygems.org/"
 gemspec
 
-gem 'github-markdown-server'
-gem 'github-linguist',			'= 5.0.4'
+gem 'github-markdown-server', 	'~> 1.0', '>= 1.0.1'
 gem 'github-markdown-preview',	'~> 4.0'
+gem 'github-markdown',			'= 0.6.9'
+gem 'github-linguist',			'= 5.0.4'
 gem 'commonmarker',				'~> 0.23.4'
 gem 'gemoji',					'= 3.0.0'
-gem 'github-markdown',			'= 0.6.9'
 gem 'html-pipeline',			'= 2.7.1'
 gem 'listen',					'= 3.1.5'
 gem 'sanitize',					'~> 5.2.1'

@@ -20,3 +20,20 @@
 
 [ body text ]
 
+
+<br /><br />
+
+---
+
+<br />
+
+# { Heading }
+
+[ body text ]
+
+
+<br />
+
+## { Sub-Heading }
+
+[ body text ]

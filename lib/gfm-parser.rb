@@ -16,3 +16,32 @@ require 'mini_mime',				'~> 1.0'
 require 'rugged',					'~> 1.0'
 
 
+# create a preview, which writes the source_file.md.html file to disk
+preview = GithubMarkdownPreview::HtmlPreview.new('source_file.md')
+
+# you can also configure your preview with a couple of options
+preview = GithubMarkdownPreview::HtmlPreview.new('source_file.md', {
+    :delete_on_exit => true, # delete the preview when the program exits
+   # :comment_mode => true, # render using the rules for Github comments/issues
+   # :preview_file => 'gfm-preview.html' # rather than the default 'source_file.md.html'
+})
+
+# access the preview information
+preview.source_file # returns 'source_file.md'
+preview.preview_file # returns 'source_file.md.html'
+
+# explicitly update the preview file from the source
+preview.update
+
+# watch the source file and update the preview on change
+preview.watch # non-blocking watch
+preview.watch! # blocking watch
+
+# add a callback to be fired on update; add multiple listeners by calling again
+preview.update { puts 'Preview updated!' }
+
+# stop watching the file (only applies to non-blocking watch method)
+preview.end_watch
+
+# delete the preview file from disk
+preview.delete

@@ -46,5 +46,5 @@
 | :--- | :---:  | :---        |
 | Bean | `str`  | String Bean |
 | Loop | `0`    | No Lööps ☹️ |
-| Bool | `true` | CoolBoolean |
+| Bool | `true` | Yes Boolean |
 

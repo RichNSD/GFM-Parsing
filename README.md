@@ -39,10 +39,12 @@
 [ body text ]
 
 
+<br /><br />
 
 
+| Item | Value  | Description |
+| :--- | :---:  | :---        |
+| Bean | `str`  | String Bean |
+| Loop | `0`    | No Lööps ☹️ |
+| Bool | `true` | CoolBoolean |
 
-| Item | Value | Description |
-| :--- | :---: | :---        |
-| Bean | `str` | String Bean |
-| Loop | `0`   | No Lööps ☹️ |
